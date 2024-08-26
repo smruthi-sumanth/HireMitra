@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "interviewer_crew"
+version = "0.1.0"
+description = "interviewer_crew using crewAI"
+authors = ["Smruthi Rao <smruthisumanthrao@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10, <=3.13"
+crewai = {version = "^0.22.2"}
+
+[tool.poetry.scripts]
+interviewer_crew = "interviewer_crew.main:run"
+
+[build-sytem]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

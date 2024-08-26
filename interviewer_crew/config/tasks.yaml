@@ -1,0 +1,15 @@
+job_role_analysis:
+  description: >
+    Read this job description: {job_description} and identify 5 key responsibilties.
+    This analysis will inform the creation of targeted interview questions.
+  expected_output: >
+    A list of 5 key responsibilities inferred from the provided job description
+
+generate_questions:
+  description: >
+    Given this resume - {resume_content} and the key responsibilites, generate 20 interview questions.
+    All 20 questions should be technical in nature, aiming to discern whether the candidate is skilled enough to fulfill responsibilities.
+  expected_output: >
+    A list of 20 questions generated based on resume content and job description.
+
+    
